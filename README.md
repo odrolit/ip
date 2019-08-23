@@ -15,43 +15,43 @@ yum install mongodb-org
 ```
 
 ### start and enable mongodb
-'''
+```
 systemctl enable mongod
 systemctl start mongod
-'''
+```
 
 ### install python36
-'''
+```
 yum install python36
-'''
+```
 
 ### install pip
-'''
+```
 yum install pip3
-'''
+```
 
 ### install virtualenv
-'''
+```
 pip3 install virtualenv
-'''
+```
 
 ### create virtualenv
-'''
+```
 virtualenv ip
-'''
+```
 
 ### activate virtualenv (default 
-'''
+```
 cd ip
 source bin/activate
-'''
+```
 
 ### git clone ip
-'''
+```
 git clone https://github.com/odrolit/ip
-'''
+```
 
 ### install requirements
-'''
+```
 pip3 install -r ip/requirements.txt
-'''
+```
