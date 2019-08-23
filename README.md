@@ -15,6 +15,7 @@ yum install mongodb-org pip3
 
 ### start and enable mongodb
 systemctl enable mongod
+
 systemctl start mongod
 
 ### install python36
@@ -31,6 +32,7 @@ virtualenv ip
 
 ### activate virtualenv (default 
 cd ip
+
 source bin/activate
 
 ### git clone ip
