@@ -24,17 +24,17 @@ yum install python36-pip
 pip3.6 install --upgrade pip
 ```
 
+### git clone ip; cd ip
+```
+git clone https://github.com/odrolit/ip
+cd ip
+```
+
 ### virtualenv install, create and activate
 ```
 pip3.6 install virtualenv
-virtualenv ip
-cd ip
-source bin/activate
-```
-
-### git clone ip
-```
-git clone https://github.com/odrolit/ip
+virtualenv venv
+source venv/bin/activate
 ```
 
 ### install requirements
