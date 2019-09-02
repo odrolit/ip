@@ -39,5 +39,5 @@ source venv/bin/activate
 
 ### install requirements
 ```
-pip3.6 install -r ip/requirements.txt
+pip3.6 install -r requirements.txt
 ```
